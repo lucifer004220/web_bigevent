@@ -18,6 +18,5 @@ $.ajaxPrefilter(function (options) {
             // 强制跳转到登录页面
             location.href = './login.html'
         }
-        console.log(res);
     }
 })
